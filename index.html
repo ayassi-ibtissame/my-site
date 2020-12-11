@@ -1,0 +1,129 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css"></link>
+</head>
+  <body>
+  	
+	<h1>Boxe française</h1>
+    
+<div class="item2">	
+	<video autoplay muted loop id="myVideo" src="3.mp4" type="video/mp4"></video>
+	<button class="button" id="myBtn" onclick="myFunction()">Pause</button></div>
+<div class="content">
+		
+    	<P>Club de boxe</P>
+	<div class="topnav" id="myTopnav">
+		<div class="item2" id="myTopnav">
+			<a href="##item1" class="active">Menu principal</a>
+			<a href="#item3">Description</a>
+			<a href="#item4">Evenement</a>
+			<a href="#item5">Séance</a>
+			<a href="#item6">Localisation</a>
+			<a href="#item7">Tarifs</a>
+			<a href="#item8">Contact</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+	</div>
+	<div id="item3">Description</div>
+	<p>En plus de la qualité de notre enseignement, un matériel unique vous accompagne au Club : rings de boxe en libre service, salle de musculation complète, pao, sacs de boxes, cordes à sauter, sacs de frappes, poires, casques, pattes d’ours, etc…</p>
+
+	<div class="row">
+  		<div class="column">
+    		<div class="card"><img class="match" src="1.jpg" border="5"></img></div>
+    	</div>
+  		<div class="column">
+    		<div class="card"><h3><a href="https://fr.wikipedia.org/wiki/Boxe" class="btn-blue">L'histoire de la boxe</a></h3></div>
+  		</div>
+	</div>
+	
+	<hr></hr>
+	<div id="item4">Evenement</div>
+	<p>La nuit des Titans</p>
+	<img class="match" src="2.jpg" border="5">
+	<br></br>
+	<p><a href="https://www.fnacspectacles.com/place-spectacle/ticket-evenement/boxe-la-nuit-des-titans-mma-series-manntmma-lt.htm" target="_blank"><button class="button">Billeterie</button></p></a>
+	<hr></hr>
+	<div id="item5">Séance</div>
+	<p>Boxe Educative : Mercredi Après-Midi de 14h à 16h</p>
+	<p>Boxe Loisir en cours collectif : Tous les jours du lundi au vendredi
+	18h à 20h et 20h à 22h.</p>
+	<p>Boxe Loisir en cours individuel : Du Lundi au Samedi de 10h à 22h</p>
+	<p>Boxe Compétition (Amateur et Pro) : Du Lundi au Samedi de 10h à 22h + entraînements suivant les disponibilités du boxeur</p>
+	<hr></hr>
+	<center>
+		<table>
+		<tr>
+		<td>
+		<div id="item6">Localisation</div>
+		<div class="row">
+  			<div class="column">
+   			<div class="card">
+      		<div class="container">
+      		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.285920022442!2d4.831526215753367!3d45.765459879105705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eaff165de749%3A0xb71531906ba8b5b!2s21%20Rue%20Longue%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1607698946470!5m2!1sfr!2sfr" width="160" height="160" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      		
+    	</td>
+    	  </div>
+    	  </div>
+    	  </div>
+    	  </div>
+    	  </td>
+    	  
+    	  <td>
+    	  <div id="item7">Tarifs</div>
+    	  <div class="column">		
+    	  <div class="card">
+      	<div class="container",style="color="white">
+      		<ul>
+  			<li>Boxe Educative 265 € / an</li>
+  			<li>Boxe Loisir en cours collectif 335 € / an</li>
+  			<li>Boxe Loisir en cours individuel 535 € / an</li>
+  			<li>Boxe à la carte 20 € la séance</li>
+  			<li>Remise en forme en cours individuel 535 € / an</li>
+		</ul>
+        	
+        
+    	</div>
+    	</div>
+  		</div>
+  		</td>
+  	</tr>
+		</table>
+
+	
+	
+
+	
+<hr></hr>
+<div id="item8">Contact</div>
+	<a href="https://www.facebook.com/boxepage/" target="_blank"><img src="logofb.png" height="30"></i></a>
+	<a href="https://www.youtube.com/channel/UCdhUhl3tkOxjdy3A0CFyQQQ" target="_blank"><img src="logoyt.png" height="30"></i></a>
+	<a href="https://twitter.com/boxeattitude?lang=fr" target="_blank"><img src="logotw.png" height="30"></i></a>
+
+
+  </div>
+  </center>
+</div>	
+
+<script>
+var video = document.getElementById("myVideo");
+
+
+var btn = document.getElementById("myBtn");
+
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+  </body>
+</html>
